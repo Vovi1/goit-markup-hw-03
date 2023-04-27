@@ -293,7 +293,8 @@ ul {
 }
 /* section_one*/
 .section_one {
-  padding: 188px 0 ;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .title_section_one {
   max-width: 496px; 
