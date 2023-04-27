@@ -253,6 +253,8 @@ body {
   width: 1158px;
   margin:0 auto;
   padding: 0 15px;
+  display: flex;
+  align-items: center;
 
 }
 h1, 
@@ -272,11 +274,7 @@ ul {
 .heading {
   border-bottom: 1px solid #e7e9fc;
 }
-.container,
-.items {
-  display: flex;
-  align-items: center;
-}
+
 .link_logo {
   margin-right: 76px ;
 
@@ -288,13 +286,13 @@ ul {
   
 
 }
- .blockquoteg { 
+ .list { 
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-
-.list{
+/* contacts */
+.adress{
   display: flex;
   gap: 40px;
   margin-right: 0;
