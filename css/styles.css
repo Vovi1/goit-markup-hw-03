@@ -285,12 +285,13 @@ ul {
   display: flex;
   gap: 40px;
   margin-right: 40px 0px;
-  
+  padding-top: 24px;
+  padding-bottom: 24px;
 
 }
-.blockquote {
+/* .blockquote { 
   padding: 24px, 0, 24px;
-}
+}*/
 /* section_one*/
 .section_one {
   padding-top: 188px;
