@@ -271,7 +271,6 @@ ul {
 
 .heading {
   border-bottom: 1px solid #e7e9fc;
-  
 }
 .container,
 .items {
@@ -286,12 +285,15 @@ ul {
   display: flex;
   gap: 40px;
   margin-right: 40px 0px;
-  padding: 24px 0;
-}
+  
 
+}
+.blockquote {
+  padding: 24px, 0, 24px;
+}
 /* section_one*/
 .section_one {
-  padding: 188px, 0 ,188px ;
+  padding: 188px 0 ;
 }
 .title_section_one {
   max-width: 496px; 
@@ -300,6 +302,5 @@ ul {
 .button_text {
   min-width: 169px;
   height: 56px ;
-  border: none; 
-  border-radius: 4px;
+  border:  none; 
 }
