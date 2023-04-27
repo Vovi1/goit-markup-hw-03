@@ -273,7 +273,21 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 .container,
-.items{
+.items {
   display: flex;
   align-items: center;
+}
+.link_logo {
+  margin-right: 76px ;
+
+}
+.list {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px 0px;
+  
+
+}
+.blockquote {
+  padding: 24px 0 24px;
 }
