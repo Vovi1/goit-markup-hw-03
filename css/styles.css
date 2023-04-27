@@ -281,14 +281,14 @@ ul {
   margin-right: 76px ;
 
 }
-.list {
+.blockquote {
   display: flex;
   gap: 40px;
   margin-right: 40px 0px;
   
 
 }
- .blockquote { 
+ .address-nav { 
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -305,4 +305,5 @@ ul {
   min-width: 169px;
   height: 56px ;
   border:  none; 
+  border-radius: 4px;
 }
