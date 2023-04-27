@@ -55,7 +55,7 @@ body {
   color: var(--ocean);
 }
 
-.sub-link {
+.sub-link-teg {
   color: var(--navy-blue);
  
 }
@@ -247,7 +247,7 @@ body {
   color:var(--color-background-button);
 }
 
-
+/* стилі  */
 .container {
   outline: solid 2px tomato;
   width: 1158px;
@@ -265,4 +265,15 @@ p,
 ul {
   margin: 0;
 }
+.pic {
+  display: block;
+}
 
+.heading {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container,
+.items{
+  display: flex;
+  align-items: center;
+}
