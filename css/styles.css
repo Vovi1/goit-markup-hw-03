@@ -260,6 +260,7 @@ body {
 }
 
 /* стилі  */
+/* header */
 .box {
   display: flex;
 }
@@ -406,4 +407,36 @@ ul {
 }
 .accent {
   max-width: 264px;
+}
+/* portfolio */
+.desc {
+  border-bottom: 1px solid #e7e9fc ;
+}
+
+.container {
+  outline: solid 2px tomato;
+  width: 1158px;
+  margin:0 auto;
+  padding: 0 15px;
+  }
+.subject {
+  display: flex;
+  align-items: center;
+}
+.link_logo {
+  margin-right: 76px;
+}
+.list-link {
+  display: flex;
+  gap: 40px
+}
+.nav_link {
+  padding: 24px 0;
+}
+
+/* contacts portfolio */
+
+.list-address-studio{
+  display: flex;
+  gap: 40px;
 }
