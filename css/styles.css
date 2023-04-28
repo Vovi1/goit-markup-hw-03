@@ -341,10 +341,11 @@ ul {
   display: flex;
   gap: 24px;
   }
-.features {
-  flex-basis: calc((100% - 72px) / 4));
-  
+
+.features{
+  width: calc((100% - 72px) / 4);
 }
+
 .title_section_two {
   margin-bottom: 8px;
 }
