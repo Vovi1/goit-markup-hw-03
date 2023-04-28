@@ -396,3 +396,14 @@ ul {
 .description_section_four {
   text-align: center; 
 }
+/* fotter */
+.foot_title {
+  padding: 100px 0;
+}
+.link_logo {
+  display: inline-block; 
+  margin-bottom: 16px;
+}
+.accent {
+  max-width: 264px;
+}
