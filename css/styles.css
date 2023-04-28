@@ -342,7 +342,7 @@ ul {
   gap: 24px;
   }
 
-.features{
+.features {
   width: calc((100% - 72px) / 4);
 }
 
