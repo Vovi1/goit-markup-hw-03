@@ -291,15 +291,13 @@ ul {
   display: flex;
   gap: 40px;
 margin-right: 40px 0px;
+padding-top: 24px;
+padding-bottom: 24px;
+}
 
-}
-.link-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 /* contacts */
 
-.adress-point {
+.address-point {
   display: flex;
   gap: 40px;
   margin-right: 40px ;
