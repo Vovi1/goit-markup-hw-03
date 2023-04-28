@@ -294,7 +294,8 @@ margin-right: 40px 0px;
 
 }
 .link-nav {
-  padding: 24px 0 ;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /* contacts */
 
@@ -302,7 +303,7 @@ margin-right: 40px 0px;
   display: flex;
   gap: 40px;
   margin-right: 40px ;
-  margin-right: 0 ;
+  margin-right: 0px ;
 }
 
 
@@ -316,6 +317,7 @@ margin-right: 40px 0px;
   }
 
 .button_text {
+  display: block;
   min-width: 169px;
   height: 56px ;
   border:  none; 
