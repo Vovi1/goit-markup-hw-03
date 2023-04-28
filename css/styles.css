@@ -290,9 +290,7 @@ ul {
  .list { 
   display: flex;
   gap: 40px;
-margin-right: 40px 0px;
-padding-top: 24px;
-padding-bottom: 24px;
+
 }
 .nav_link  {
   padding-top: 24px;
@@ -300,12 +298,12 @@ padding-bottom: 24px;
 }
 /* contacts */
 
-.address-point {
-  display: flex;
-  gap: 40px;
-  margin-right: 40px ;
-  margin-right: 0px ;
+.socials {
+  display: flex; 
+  gap: 40px ;
 }
+
+
 
 
 /* section_one*/
