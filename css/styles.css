@@ -436,7 +436,26 @@ ul {
 
 /* contacts portfolio */
 
-.list-address-studio{
+.list-address-studio {
   display: flex;
   gap: 40px;
+}
+/* section-one */
+.section-one {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.list-button {
+  display: flex; 
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+
+}
+.button-labels_list {
+  padding: 12px 24px 12px ;
+  border: 1px solid #e7e9fc;
+  border: 1px solid transparent ;
+   border: 1px solid transparent;
+   border-radius: 4px;
 }
