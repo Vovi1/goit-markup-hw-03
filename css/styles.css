@@ -379,7 +379,7 @@ ul {
 }
 /* ?????????????? */
 .icon {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 /*  personal  section_four*/
