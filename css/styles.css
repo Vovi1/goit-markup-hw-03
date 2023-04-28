@@ -248,13 +248,15 @@ body {
 }
 
 /* стилі  */
+.box {
+  display: flex;
+}
 .container {
   outline: solid 2px tomato;
   width: 1158px;
   margin:0 auto;
   padding: 0 15px;
-  display: flex;
-  align-items: center;
+  
 
 }
 h1, 
@@ -281,22 +283,28 @@ ul {
 }
 .items {
   display: flex;
-  gap: 40px;
-  margin-right: 40px 0px;
-  
-
+  align-items: center;
 }
+
+
  .list { 
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-/* contacts */
-.adress{
   display: flex;
   gap: 40px;
-  margin-right: 0;
+margin-right: 40px 0px;
+
 }
+.link-nav {
+  padding: 24px 0 ;
+}
+/* contacts */
+
+.adress-point {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px ;
+  margin-right: 0 ;
+}
+
 
 /* section_one*/
 .section_one {
