@@ -340,7 +340,10 @@ ul {
 .list-information {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+  
+  
+}
+.title_section_two {
+  flex-basis: calc((100% - 72px) / 4));
   margin-bottom: 8px;
 }
-
