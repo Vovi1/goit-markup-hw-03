@@ -345,7 +345,5 @@ ul {
 }
 .title_section_two {
   flex-basis: calc((100% - 72px) / 4);
-}
-.description_section_two {
   margin-bottom: 8px;
 }
