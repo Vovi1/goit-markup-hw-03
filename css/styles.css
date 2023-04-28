@@ -459,3 +459,8 @@ ul {
    border: 1px solid transparent;
    border-radius: 4px;
 }
+.list-desc {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px; 
+}
