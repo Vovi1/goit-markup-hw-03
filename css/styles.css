@@ -332,7 +332,8 @@ ul {
   border-radius: 4px;
 }
 
-/* information ,section_two*/
+/* information ,section_two2*/
+
 .section_two {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -350,9 +351,10 @@ ul {
   margin-bottom: 8px;
 }
 
-/*  products sction_three */
-.section_three {
-  padding-bottom: 120px;
+/*  products sction_three3 */
+
+.sction_three {
+  padding-bottom: 120px; 
 }
 .title_section_three {
   margin-bottom: 72px;
@@ -362,7 +364,7 @@ ul {
   display: flex;
   gap: 24px; 
 }
-.pic {
+.icon {
   width: calc((100% - 48px) / 3);
 }
 
