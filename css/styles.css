@@ -347,3 +347,18 @@ ul {
   flex-basis: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
+/*  products sction_three */
+.section_three {
+  padding-bottom: 120px;
+}
+.title_section_three {
+  margin-bottom: 72px;
+}
+
+.list-imge {
+  display: flex;
+  gap: 24px; 
+}
+.pic {
+  width: calc((100% - 48px) / 3);
+}
