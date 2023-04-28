@@ -340,10 +340,12 @@ ul {
 .list-information {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
+  
   
 }
 .title_section_two {
-margin-bottom: 8px;
+  flex-basis: calc((100% - 72px) / 4);
 }
-
+.description_section_two {
+  margin-bottom: 8px;
+}
