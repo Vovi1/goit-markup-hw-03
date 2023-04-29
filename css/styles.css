@@ -443,7 +443,7 @@ ul {
 }
 
 .container {
-  outline: solid 2px tomato;
+  /* outline: solid 2px tomato; */
   width: 1158px;
   margin:0 auto;
   padding: 0 15px;
