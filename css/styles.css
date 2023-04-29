@@ -9,7 +9,7 @@
 --border-button-color:var(--border-color);
 }
 /* .studio{
-  color: var(--ocean);
+ 
 } */
 
 /* Global Styles */
@@ -22,6 +22,7 @@ body {
   line-height: 2;
   background-color: var(--color-hover-white);
 }
+
 .logo{
   text-decoration: none;
   color: var(--color-hover-nav);
@@ -30,9 +31,13 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  display: inline-block; 
   
+}
+
+
+.sub-link-logo {
+  color: var(--navy-blue);
+ 
 }
 
 .logo:focus {
@@ -47,8 +52,6 @@ body {
   margin-bottom: 16px;
 }
 
-
-/* header */
 .nav_link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -57,6 +60,14 @@ body {
   letter-spacing: 0.02em;
   font-size: 16px;
   color: var(--navy-blue);
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 
 .nav_link_address {
@@ -67,6 +78,7 @@ body {
   letter-spacing: 0.02em;
   font-size: 16px;
   color: var(--color-nav);
+  text-decoration: none;
 }
 
 .nav_link_address:hover {
@@ -76,31 +88,21 @@ body {
   color: var(--ocean);
 }
 
-.nav_link:hover {
-  color: var(--ocean);
-}
-.nav_link:focus {
-  color: var(--ocean);
-}
 
-.sub-link-teg {
-  color: var(--navy-blue);
- 
-}
+/* ********************************************** */
+
+/* Studio Styles */
 
 
+/* Portfolio Styles */
 
-.sub-link {
-  color: var(--ocean);
-  font-weight: 500;
-  text-decoration: none;
-}
+
+/* header */
 
 
 
-.list {
-  list-style: none;
-}
+
+
 .socials{
   list-style: none;
 }
@@ -119,7 +121,7 @@ body {
 }
 
 
-.address_studio {
+.address {
   font-style: normal;
 }
 /* main  */
@@ -138,6 +140,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-hover-white);
   background-color: var(--navy-blue);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .button_text {
@@ -149,6 +154,8 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-hover-white);
   cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
 }
 .list-information {
   list-style: none;
@@ -200,6 +207,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:var(--navy-blue);
+  
 }
 .list-time  {
    list-style: none;
@@ -276,10 +284,13 @@ body {
   color:var(--color-background-button);
 }
 
+
 /* стилі  */
 /* header */
 .box {
   display: flex;
+ 
+
 }
 .container {
  
@@ -287,6 +298,8 @@ body {
   margin:0 auto;
   padding: 0 15px;
   
+
+
 
 }
 h1, 
@@ -307,7 +320,8 @@ ul {
 
 .heading {
   border-bottom: 1px solid var(--border-button-color);
-  height: 72px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .items {
@@ -327,6 +341,9 @@ ul {
 }
 /* contacts */
 
+.address {
+  margin-left: auto;
+}
 .socials {
   display: flex; 
   gap: 40px ;
@@ -434,7 +451,7 @@ ul {
   max-width: 264px;
 }
 /* portfolio */
-.desc {
+.heading {
   border-bottom: 1px solid var(--border-button-color) ;
 }
 
@@ -442,6 +459,7 @@ ul {
 .subject {
   display: flex;
   align-items: center;
+  
 }
 
 .list-link {
@@ -471,7 +489,7 @@ ul {
  
 
 }
-/* ????????? */
+
 .button-labels_list {
   padding: 12px 24px 12px ;
   border: 1px solid var(--border-color);
@@ -483,7 +501,7 @@ ul {
 {
   border: 1px solid transparent;
 }
-/* ????????? */
+
 .list-desc {
   display: flex ;
   flex-wrap: wrap;
