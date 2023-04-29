@@ -360,17 +360,20 @@ ul {
   
   }
  
-
+  .list-information li{
+    margin-right: 24px;
+  }
+  .list-information li:last-child{
+    margin-right: 0px;
+  }
 
 .list-item {
  /*  width:calc((100% - 72px) / 4) ; */
  width: calc((100% - 72px) / 4);
 
- margin-right: 24px;
+
 }
-.list-item:last-child{
-  margin-right: 0px;
-}
+
 
 .title_section_two {
   margin-bottom: 8px;
