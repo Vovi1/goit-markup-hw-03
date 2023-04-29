@@ -356,16 +356,16 @@ ul {
 }
 .list-information {
   display: flex;
-  /* gap: 24px; */
+  gap: 24px;
   
   }
  
-  .list-information li{
+  /* .list-information li{
     margin-right: 24px;
   }
   .list-information li:last-child{
-    margin-right: 0px;
-  }
+    margin-right: 0;
+  } */
 
 .list-item {
  /*  width:calc((100% - 72px) / 4) ; */
