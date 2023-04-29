@@ -5,6 +5,8 @@
   --color-hover-nav: #4d5ae5;
   --color-hover-white: #ffffff;
   --color-background-button: #f4f4fd;
+--border-color: #e7e9fc ;
+--border-button-color:var(--border-color);
 }
 /* .studio{
   color: var(--ocean);
@@ -295,11 +297,12 @@ ul {
   margin: 0;
 }
 .pic {
+  max-width: 100%;
   display: block;
 }
 
 .heading {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--border-button-color);
 }
 
 .link_logo {
@@ -425,7 +428,7 @@ ul {
 }
 /* portfolio */
 .desc {
-  border-bottom: 1px solid #e7e9fc ;
+  border-bottom: 1px solid var(--border-button-color) ;
 }
 
 .container {
@@ -471,7 +474,7 @@ ul {
 /* ????????? */
 .button-labels_list {
   padding: 12px 24px 12px ;
-  border: 1px solid #e7e9fc;
+  border: 1px solid;
   border: 1px solid transparent ;
    border: 1px solid transparent;
    border-radius: 4px;
@@ -485,7 +488,7 @@ ul {
   row-gap: 48px; 
 }
 .list-coppy {
-  flex-basis: calc((100% - 3 * 16px) / 3) ;
+  width: calc((100% - 3 * 16px) / 3) ;
 }
   
 
@@ -493,6 +496,6 @@ ul {
 .card {
   padding: 32px 16px;
  border-top: none; 
- border: 1px solid #e7e9fc; 
+ border: 1px solid var(--border-color); 
   margin-bottom: 8px ;
 }
