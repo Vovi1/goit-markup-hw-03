@@ -253,6 +253,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px ;
+  
 }
 .list-address-studio {
   list-style: none;
@@ -506,5 +508,5 @@ ul {
   border: 1px solid var(--border-color);
  border-top: none; 
 
-  margin-bottom: 8px ;
 }
+
