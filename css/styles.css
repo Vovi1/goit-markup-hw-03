@@ -362,13 +362,13 @@ ul {
  
 
 
-.features {
+.list-item {
  /*  width:calc((100% - 72px) / 4) ; */
  width: calc((100% - 72px) / 4);
 
  margin-right: 24px;
 }
-.features:last-child{
+.list-item:last-child{
   margin-right: 0px;
 }
 
