@@ -356,14 +356,20 @@ ul {
 }
 .list-information {
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
+  
   }
+ 
+
 
 .features {
  /*  width:calc((100% - 72px) / 4) ; */
  width: 254px;
+ margin-right: 24px;
 }
-  
+.features:last-child{
+  margin-right: 0px;
+}
 
 .title_section_two {
   margin-bottom: 8px;
