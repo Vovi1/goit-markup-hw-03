@@ -364,7 +364,8 @@ ul {
 
 .features {
  /*  width:calc((100% - 72px) / 4) ; */
- width: 254px;
+ width: calc((100% - 72px) / 4);
+
  margin-right: 24px;
 }
 .features:last-child{
