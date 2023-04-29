@@ -295,6 +295,7 @@ h6,
 p,
 ul {
   margin: 0;
+  padding: 0px;
 }
 .pic {
   max-width: 100%;
