@@ -279,7 +279,7 @@ body {
   display: flex;
 }
 .container {
-  outline: solid 2px tomato;
+ 
   width: 1158px;
   margin:0 auto;
   padding: 0 15px;
@@ -368,7 +368,7 @@ ul {
   }
 
 .list-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
  /* width: calc((100% - 72px) / 4); */
 
 
@@ -442,12 +442,7 @@ ul {
   border-bottom: 1px solid var(--border-button-color) ;
 }
 
-.container {
-  /* outline: solid 2px tomato; */
-  width: 1158px;
-  margin:0 auto;
-  padding: 0 15px;
-  }
+
 .subject {
   display: flex;
   align-items: center;
