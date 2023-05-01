@@ -23,7 +23,7 @@ body {
   background-color: var(--color-hover-white);
 }
 
-.logo{
+.logo {
   text-decoration: none;
   color: var(--color-hover-nav);
   font-family: "Raleway", sans-serif;
@@ -49,7 +49,8 @@ body {
 }
 
 .logo-footer{
-  margin-bottom: 16px;
+  margin-bottom: 17.5px;
+  display: inline-block;
 }
 
 .nav_link {
