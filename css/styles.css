@@ -231,6 +231,14 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
+.sub_link {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+color:var(--color-background-button)
+}
 .list-link {
   list-style: none;
 }
